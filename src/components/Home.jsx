@@ -11,12 +11,18 @@ function Home() {
           Hi, I'm <span>Yuda Pradana</span>
         </h1>
         <p>
-          Frontend Developer passionate about crafting clean and interactive web
-          experiences.
+          Graduated Full-Stack Web Developer bootcamp program from harisenin.com
+          for deepening skills in Web Developer. Explore my latest projects,
+          showcasing my expertise in web development.
         </p>
-        <a href="#portfolio" className="btn">
-          View My Work
-        </a>
+        <div className="div-btn">
+          <a href="#portfolio" className="btn-resume">
+            Resume
+          </a>
+          <a href="#portfolio" className="btn-contact">
+            Send Message
+          </a>
+        </div>
       </div>
     </section>
   );

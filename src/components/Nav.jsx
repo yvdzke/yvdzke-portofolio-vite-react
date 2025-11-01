@@ -23,23 +23,45 @@ function Nav() {
 
   return (
     <nav className="nav">
-      <div className="logo">YVDZKE</div>
+      <div className="logo">KE</div>
       <ul className="nav-links">
+        <li>
+          <a href="" className={active === "home" ? "active" : ""}>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="" className={active === "home" ? "active" : ""}>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="" className={active === "home" ? "active" : ""}>
+            Home
+          </a>
+        </li>
         <li>
           <a href="#home" className={active === "home" ? "active" : ""}>
             Home
           </a>
         </li>
         <li>
+          <a href="" className={active === "home" ? "active" : ""}>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="" className={active === "home" ? "active" : ""}>
+            Home
+          </a>
+        </li>
+
+        <li>
           <a href="#about" className={active === "about" ? "active" : ""}>
             About
           </a>
         </li>
-        <li>
-          <a href="#journey" className={active === "journey" ? "active" : ""}>
-            Journey
-          </a>
-        </li>
+
         <li>
           <a href="#project" className={active === "project" ? "active" : ""}>
             Project

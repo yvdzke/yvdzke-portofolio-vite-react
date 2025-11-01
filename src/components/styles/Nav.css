@@ -5,7 +5,7 @@
   transform: translateX(-50%);
   width: 90%;
   max-width: 1100px;
-  background: rgba(30, 30, 30, 0.7);
+  background: rgba(30, 30, 30, 0.26);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
@@ -21,7 +21,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   letter-spacing: 1px;
-  color: #00bcd4;
+  color: aquamarine;
 }
 
 .nav-links {
@@ -33,7 +33,7 @@
 .nav-links a {
   position: relative;
   text-decoration: none;
-  color: #00bcd4;
+  color: aquamarine;
   font-weight: 500;
   transition: all 0.3s ease;
   padding: 6px 16px;
