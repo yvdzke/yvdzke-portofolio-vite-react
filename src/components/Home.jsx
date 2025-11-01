@@ -9,15 +9,14 @@ function Home() {
   return (
     <section id="Home" ref={ref} className="Home fade-section">
       <div className="Home-content">
-        <h1>
-          Hi, I'm <span>Yuda Pradana</span>
-        </h1>
+        <h1>The code is like a joke. If it needs comment, it's no good.</h1>
         <p>
           Graduated Full-Stack Web Developer bootcamp program from harisenin.com
           for deepening skills in Web Developer.
           <button className="nav-btn" onClick={() => setShowAbout(true)}>
             About
-          </button>{" "}
+          </button>
+          {""}
           Explore my latest projects, showcasing my expertise in web
           development.
         </p>
