@@ -15,7 +15,7 @@ import mysqlIcon from "../assets/icons/mysql.png";
 
 const skills = [
   {
-    name: "Framworks",
+    name: "Frameworks",
     icons: [
       { img: nextjsIcon, label: "NextJS" },
       { img: laravelIcon, label: "Laravel" },
