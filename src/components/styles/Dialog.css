@@ -59,3 +59,9 @@
 .dialog p span {
   color: #fc0202;
 }
+
+.ref-skills {
+  color: aliceblue;
+  background-color: #121212;
+  cursor: pointer;
+}

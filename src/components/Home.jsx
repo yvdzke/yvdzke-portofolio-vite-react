@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import "./styles/Home.css";
 import useScrollAnimation from "../hooks/useScrollAnimation";
-import About from "./About.jsx";
-import { FaNodeJs } from "react-icons/fa";
-import { FaFacebookMessenger } from "react-icons/fa";
+import Skills from "./Skills.jsx";
+
+import { IoMailOutline } from "react-icons/io5";
 import { IoDocumentAttachSharp } from "react-icons/io5";
 import SkillsSection from "../components/SkillsSection.jsx";
 
 function Home() {
-  const [showAbout, setShowAbout] = useState(false);
+  const [showSkills, setShowSkills] = useState(false);
   const ref = useScrollAnimation();
   return (
     <section id="Home" ref={ref} className="Home fade-section">
@@ -27,24 +27,39 @@ function Home() {
         <p>
           Graduated Full-Stack Web Developer bootcamp program from harisenin.com
           for deepening{""}
-          <button className="nav-btn" onClick={() => setShowAbout(true)}>
+          <button
+            id="skills"
+            className="nav-btn"
+            onClick={() => setShowSkills(true)}
+          >
             Skills
           </button>
           in Web Developer. Explore my latest projects, showcasing my expertise
           in web development.
         </p>
         <div className="div-btn">
-          <a href="#portfolio" className="btn-resume">
+          <a
+            href="/yvdzpradana.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-resume"
+          >
             Resume
             <IoDocumentAttachSharp />
           </a>
-          <a href="#portfolio" className="btn-contact">
-            Send Message
-            <FaFacebookMessenger />
+
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=yvdzke@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-contact"
+          >
+            Contact Me
+            <IoMailOutline />
           </a>
         </div>
       </div>
-      <About isOpen={showAbout} onClose={() => setShowAbout(false)} />
+      <Skills isOpen={showSkills} onClose={() => setShowSkills(false)} />
     </section>
   );
 }

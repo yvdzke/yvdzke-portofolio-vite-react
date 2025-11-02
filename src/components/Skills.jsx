@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./styles/About.module.css";
-import SkillsSection from "../components/SkillsSection.jsx";
+import styles from "./styles/Skills.module.css";
+import SkillsSection from "./SkillsSection.jsx";
 
-function AboutModal({ isOpen, onClose }) {
+function SkillsModal({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   return (
@@ -17,4 +17,4 @@ function AboutModal({ isOpen, onClose }) {
   );
 }
 
-export default AboutModal;
+export default SkillsModal;

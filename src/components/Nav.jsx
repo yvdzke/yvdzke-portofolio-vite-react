@@ -18,7 +18,7 @@ function Nav() {
         <ul className="nav-links">
           <li>
             <button className="nav-btn" onClick={() => openDialog("home")}>
-              About Me
+              About
             </button>
           </li>
           <li>

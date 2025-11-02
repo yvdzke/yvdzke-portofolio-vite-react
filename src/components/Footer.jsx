@@ -3,6 +3,7 @@ import "./styles/Footer.css";
 import { ImGithub } from "react-icons/im";
 import { FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import { SiWhatsapp } from "react-icons/si";
 function Footer() {
   return (
     <footer className="footer">
@@ -34,6 +35,15 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <BsTwitterX size={21} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/6282110990050"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiWhatsapp size={21} />
             </a>
           </li>
         </ul>
