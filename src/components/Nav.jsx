@@ -14,7 +14,10 @@ function Nav() {
   return (
     <>
       <nav className="nav">
-        <div className="logo">KE</div>
+        <div className="logo">
+          <img src="src/assets/icons/icon.png" alt="" className="logo-img" />
+        </div>
+
         <ul className="nav-links">
           <li>
             <button className="nav-btn" onClick={() => openDialog("home")}>

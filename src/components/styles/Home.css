@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
 .Home {
   min-height: 100vh;
   background: linear-gradient(135deg, #101820, #1a1f2b);
@@ -10,32 +9,27 @@
   text-align: center;
   padding: 60px 20px;
 }
-
 .Home-content h1 {
   font-size: 2.5rem;
   margin-bottom: 16px;
 }
-
 .Home-content h1 span {
   color: aquamarine;
 }
-
 .Home-content p {
   max-width: 600px;
   margin: 0 auto 24px;
   color: #ccc;
-}
-
-/* Button Start */
+} /* Button Start */
 .btn-resume {
-  display: inline-flex; /* lebih rapi untuk center text */
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   background: #ffffff;
   color: rgb(0, 0, 0);
   box-sizing: border-box;
-  width: 180px; /* 👉 lebar tetap */
-  height: 48px; /* 👉 tinggi tetap */
+  width: 180px;
+  height: 48px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
@@ -44,7 +38,7 @@
   font-family: "Poppins", sans-serif;
 }
 .btn-contact {
-  display: inline-flex; /* untuk center text */
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   background: aquamarine;
@@ -58,25 +52,20 @@
   font-weight: bold;
   font-size: 1rem;
   transition: background 0.3s ease;
-}
-
-/* Resume */
+} /* Resume */
 .btn-resume:hover {
   background: linear-gradient(135deg, #101820, #1a1f2b);
   border: 2px solid #ffffff;
   color: #ffffff;
-}
-/* Contact */
+} /* Contact */
 .btn-contact:hover {
   background: linear-gradient(135deg, #101820, #1a1f2b);
   border: 2px solid aquamarine;
   color: aquamarine;
 }
-
 .div-btn {
   display: flex;
   gap: 16px;
   justify-content: center;
 }
-
 /* Button End */
