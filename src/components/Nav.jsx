@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles/Nav.css";
 import DialogBox from "./DialogBox";
+import keLogo from "../assets/icons/icon.png";
 
 function Nav() {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
@@ -15,7 +16,7 @@ function Nav() {
     <>
       <nav className="nav">
         <div className="logo">
-          <img src="src/assets/icons/icon.png" alt="" className="logo-img" />
+          <img src={keLogo} alt="" className="logo-img" />
         </div>
 
         <ul className="nav-links">
